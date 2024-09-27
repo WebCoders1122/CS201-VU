@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 	int a, b;
-	float c;
+	float c; 
 	// user input
 	cout << "Input 1st number: ";
 	cin >> a;
