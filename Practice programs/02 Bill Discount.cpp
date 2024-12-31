@@ -13,7 +13,7 @@ int main(){
 		discountedBill = bill - (bill * 0.15);
 			cout << "You final bill after 15% discount is " << discountedBill<< endl;
 	}else if (bill > 5000 && bill < 15000){
-		discountedBill = bill - (bill * 0.05);
+		discountedBill = bill - (bill * 5/100);
 			cout << "You final bill after 5% discount is " << discountedBill<< endl;
 	}else{
 			cout << "You final bill after 0% discount is " << bill << endl;

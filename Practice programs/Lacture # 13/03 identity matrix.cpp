@@ -2,7 +2,7 @@
 using namespace std;
 
 
-bool isUnitMatrix(int matrix[][100], int n){
+bool isUnitMatrix(int matrix[][5], int n){
 	for(int row = 0; row < n; row++){
 		for(int col = 0; col < n; col++){
 			if(row == col && matrix[row][col] != 1){
@@ -19,7 +19,7 @@ int main(){
 	int n; //size of matrix
 	cout << "Please enter size of squar matrix: ";
 	cin >> n;
-	int matrix[100][100];
+	int matrix[5][5];
 	cout << "Please enter matrix values 1 by 1: ";
 	//getting values from user
 	for(int row = 0; row < n; row++){

@@ -1,5 +1,5 @@
 #include<iostream>
-#include<cctype>
+#include<ctype.h>
 using namespace std;
 void toFlipCase(char *str){
 	while(*str != '\0'){

@@ -11,11 +11,14 @@ int main(){
 		cout << "Please enter value # " << i+1 << " :";
 		cin >> input;
 			numbers[i] = input;
-			sum_of_squars += input*input;
+			//sum_of_squars += input*input;
 			i++;
 		
 	}while(i < 3);
 	
+	for(i=0; i < 3; i++){
+		sum_of_squars += numbers[i]*numbers[i];
+	}
 	cout << "\n some of squars of array is " << sum_of_squars;
 	return 0;
 }
